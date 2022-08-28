@@ -9,15 +9,20 @@ nav {
     top: 0;
     width: 100%;
     display: block;
+
 }
 
 .nav-bar-link {
+    font-size: 16px;
+    position: fixed;
     cursor: pointer;
     text-decoration: none;
     color: rgba(0, 0, 0, .87);
 }
 
 .nav-bar-btn {
+    right: 0;
+    top: 3.2%;
     color: white;
     background: #4285f4;
     font-family: Google Sans, Roboto, Helvetica;
@@ -34,8 +39,13 @@ nav {
 }
 
 
+nav>ul {
+    padding: 0;
+
+}
 
 nav>ul>li {
+    position: relative;
     display: inline-block;
     line-height: 24px;
     vertical-align: middle;
@@ -43,7 +53,9 @@ nav>ul>li {
     text-decoration: none;
     font-family: arial, sans-serif;
     font: 13px/27px Roboto;
+
 }
+
 
 
 .content {
@@ -86,13 +98,14 @@ nav>ul>li {
 
 
 .searchbar-submit {
+    cursor: pointer;
     margin-left: 0%;
     position: fixed;
     width: 14%;
     left: 37%;
     float: left;
     display: inline;
-    
+
     height: 50px;
     padding: 15px;
     background-color: lightgray;
@@ -102,7 +115,7 @@ nav>ul>li {
 
 .searchbar-div {
     background-color: #FFFFFF;
-   
+
     display: block;
     padding: 5px;
     width: 100%;
@@ -112,16 +125,16 @@ nav>ul>li {
     padding: 5px 8px 0 14px;
 }
 
-#voice-search{
+#voice-search {
     display: inline-block;
-    
-    
+
+
     position: fixed;
     right: 27%;
     bottom: 46.25%;
 }
 
-#voice-search>img{
+#voice-search>img {
     height: 28px;
 }
 
@@ -180,7 +193,8 @@ footer>a {
 }
 
 .apps-img {
+
     font-family: arial, sans-serif;
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
