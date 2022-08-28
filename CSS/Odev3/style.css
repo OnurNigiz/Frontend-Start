@@ -1,0 +1,72 @@
+body{
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+nav{
+    position: top;
+    display: block;
+}
+
+.nav-bar-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(0,0,0,.87);;
+}
+
+.nav-bar-btn{
+    color: white;
+    background: #4285f4;
+    font-family: Google Sans,Roboto, Helvetica;
+    font-weight: 500;
+    letter-spacing: 0.25px;
+    line-height: 16px;
+    margin-right: 8px;
+    min-width: 96px;
+    padding: 9px 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+nav>ul>li{
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    font-family: arial,sans-serif;
+    font: 13px/27px Roboto;
+}
+
+.searchbar-container{
+    display: block;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+
+.searchbar{
+    display: flex;
+    padding: 5px 8px 0 14px;
+
+}
+
+footer>a{
+    cursor: pointer;
+    display: inline-block;
+    padding: 15px;
+    line-height: 24px;
+    vertical-align: middle;
+    color: rgba(0,0,0,.87);
+    text-decoration: none;
+    
+}
+
+.apps-img{
+    font-family: arial,sans-serif;
+    width: 24px;
+    height: 24px;
+}
