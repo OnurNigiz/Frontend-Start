@@ -1,4 +1,4 @@
-#Patika Dev. Front-End Patikası Bootstrap
+# Patika Dev. Front-End Patikası Bootstrap
 
 Bootstrap Eğitimi 3. ödev.
 
