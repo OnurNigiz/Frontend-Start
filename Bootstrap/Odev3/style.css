@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(243,242,239);
+}
+
+
+.navbar-border{
+    border-bottom: 1px lightgray solid;
+}
+
+.navbar-height{
+    height: 53px;
+}
+
+.post-btn{
+    border: none;
+    background: none;
+}
+
+.prof-pic{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
